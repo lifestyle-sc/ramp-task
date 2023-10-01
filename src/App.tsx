@@ -34,6 +34,7 @@ function App() {
     if(data && spanRef.current !== null){
       typeEffect();
     }
+    // eslint-disable-next-line
   }, [data])
 
   if(loading){
